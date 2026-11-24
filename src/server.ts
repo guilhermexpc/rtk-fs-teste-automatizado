@@ -1,5 +1,9 @@
-console.log("Server start");
+import { app } from "./app";
 
-export function sum(a: number, b: number) {
-  return a + b;
-}
+const PORT = 3333;
+
+app.listen(PORT, () => {
+  console.log("Server is running");
+});
+
+console.log("Server start - JEST testing");

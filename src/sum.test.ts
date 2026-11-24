@@ -1,5 +1,5 @@
 import { expect, test, describe, it, beforeAll, afterAll } from "@jest/globals";
-import { sum } from "./server";
+import { sum } from "./sum";
 
 // Test suite for sum function
 describe("sum function", () => {
