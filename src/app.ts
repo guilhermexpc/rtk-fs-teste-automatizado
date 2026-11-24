@@ -8,9 +8,10 @@ const products = [
   { id: 5, name: "Mouse", price: 150 }
 ];
 
-const app = http.createServer((req, res) => {
-  if (req.url === "/products" && req.method === "GET") {
-    res.end(JSON.stringify(products));
+const app = http.createServer((request, response) => {
+  if (request.url === "/products" && request.method === "GET") {
+    response.writeHead(200, { "Content-Type": "application/json" });
+    response.end(JSON.stringify(products));
   }
 });
 
