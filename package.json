@@ -1,0 +1,24 @@
+{
+  "name": "rtk-fs-teste-automatizado",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhermexpc/rtk-fs-teste-automatizado.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/guilhermexpc/rtk-fs-teste-automatizado/issues"
+  },
+  "homepage": "https://github.com/guilhermexpc/rtk-fs-teste-automatizado#readme",
+  "dependencies": {
+    "tsx": "^4.23.15"
+  }
+}
