@@ -20,5 +20,12 @@
   "homepage": "https://github.com/guilhermexpc/rtk-fs-teste-automatizado#readme",
   "dependencies": {
     "tsx": "^4.23.15"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^26.6.6",
+    "jest": "^30.5.2",
+    "ts-jest": "^29.4.15",
+    "typescript": "^5.7.2"
   }
 }
