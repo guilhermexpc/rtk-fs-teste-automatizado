@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/guilhermexpc/rtk-fs-teste-automatizado#readme",
   "dependencies": {
+    "ts-node": "^10.9.2",
     "tsx": "^4.23.15"
   },
   "devDependencies": {
